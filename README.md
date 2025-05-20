@@ -5,11 +5,7 @@ To check the full report, please refer to [Report](./Report/main.pdf) folder.
 ## Execution Video
 *Quality is affected because github limits the video to 10 Mo*
 
-
-
-https://github.com/user-attachments/assets/e8b94ad4-a4dc-43b4-bacb-7915e17a6dcf
-
-
+https://github.com/user-attachments/assets/e940b0f6-a4e4-4750-9d1a-636784fa2439
 
 ## Purpose
 
