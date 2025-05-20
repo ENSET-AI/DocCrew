@@ -147,12 +147,11 @@ The dataset provides realistic medical narratives that serve as excellent input 
 
 The project utilizes a variety of modern tools and technologies:
 
+- **uv**: Modern Python package installer and environment manager
 - **CrewAI**: Framework for building and orchestrating multi-agent systems
 - **Streamlit**: For creating the web-based user interface
 - **pdfLaTeX**: For compiling LaTeX documents into professional PDFs
 - **FastAPI**: For API development (available for integration)
-- **uv**: Modern Python package installer and environment manager
-- **Python 3.10+**: Core programming language with modern features
 
 ## Getting Started
 
