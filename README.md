@@ -95,6 +95,23 @@ The system provides a user-friendly interface built with Streamlit that enables:
 - Preview of generated PDF reports
 - One-click download of finalized PDF documents
 
+## GUI Screenshots
+
+![image](https://github.com/user-attachments/assets/9774d69f-0793-4944-8f76-50faff6dfe6f)
+
+![image](https://github.com/user-attachments/assets/66778983-2b07-4605-8ca1-8c2691c46c7d)
+
+## Generated Report with LaTex
+
+![image](https://github.com/user-attachments/assets/45d7d432-4b16-4fc9-beb8-1177c459b40f)
+
+
+![image](https://github.com/user-attachments/assets/719fb26b-fd3f-45bb-af18-c7826903ac9b)
+
+![image](https://github.com/user-attachments/assets/ba864d0f-e644-47c3-9ec8-4347b32da62a)
+
+
+
 ## Data Management
 
 DocCrew incorporates comprehensive data handling features:
