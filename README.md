@@ -2,6 +2,12 @@
 
 To check the full report, please refer to [Report](./Report/main.pdf) folder.
 
+## Execution Video
+*Quality is affected because github limits the video to 10 Mo*
+
+https://github.com/user-attachments/assets/8a9996ef-263f-4ac3-83f8-5e7e60db97cc
+
+
 ## Purpose
 
 DocCrew is an advanced medical report processing system designed to transform raw medical notes into professionally formatted, clinically accurate reports. The system automates the extraction, organization, and presentation of medical information to assist healthcare professionals in generating high-quality, standardized medical documentation with minimal manual effort.
