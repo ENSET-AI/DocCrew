@@ -1,5 +1,7 @@
 # DocCrew: Medical Report Multi-Agent System
 
+To check the full report, please refer to [Report](./Report/main.pdf) folder.
+
 ## Purpose
 
 DocCrew is an advanced medical report processing system designed to transform raw medical notes into professionally formatted, clinically accurate reports. The system automates the extraction, organization, and presentation of medical information to assist healthcare professionals in generating high-quality, standardized medical documentation with minimal manual effort.
