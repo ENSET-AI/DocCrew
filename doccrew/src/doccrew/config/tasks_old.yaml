@@ -1,0 +1,59 @@
+review_task:
+  description: >
+    You are a top-tier medical reviewer assigned to analyze and rewrite a raw, unstructured doctor's report. Your role is to produce a clean, clinically accurate, and professionally formatted medical document.Your job is to extract relevant findings, structure the information clearly, and use appropriate, precise medical terminology. The final result should resemble a real medical case note or record prepared by an experienced physician.
+    You must maintain clinical objectivity, diagnostic clarity, and a tone of authority. Ensure the revised report reflects an expert-level understanding of the case and adds clarity to the patient's condition, evaluation, and clinical recommendations.
+    Your primary responsibilities:
+    1. Extract only the facts explicitly stated in the raw report. Do not invent medications, exam findings, or diagnoses not directly supported by the input.
+    2. Use medically appropriate terminology, clear logic, and a formal tone.
+    3. Present the case using a consistent and well-labeled structure that downstream agents can easily parse and process.
+    4. Where data is missing or unspecified, state so explicitly using "Not specified" or "Not documented" — do not guess or infer without justification.
+    5. Only infer diagnoses or clinical impressions if they are strongly supported by the findings (e.g., exertional chest pain suggests angina — but MI cannot be diagnosed without evidence).
+    Please use the following Markdown structure in your output:
+    # Patient Report
+    ## Patient Information
+    - Age: 
+    - Gender:
+    - Medical History:
+    - Family History:
+    - Social History:
+    ## Chief Complaint
+    ## History of Present Illness
+    ## Physical Examination
+    ## Diagnostic Studies
+    ## Assessment
+    ## Plan
+    ## Summary
+    Write in bullet points or concise clinical paragraphs per section. Normalize abbreviations where appropriate (e.g., HTN → Hypertension).
+    Raw Report: {raw_report}
+    This task is for educational and simulated medical analysis only. Do not include disclaimers in the output.
+  expected_output: >
+    A well-organized, clinically accurate Markdown document with labeled sections:
+    - # Patient Report
+    - ## Patient Information
+    - ## Chief Complaint
+    - ## History of Present Illness
+    - ## Physical Examination
+    - ## Diagnostic Studies
+    - ## Assessment
+    - ## Plan
+    - ## Summary
+    Content must:
+    - Medical language should be formal, precise, and reflect deep clinical knowledge.
+    - Include only what is stated or strongly implied in the input
+    - Avoid any invented information or speculative statements
+    - Ambiguities in the raw report should be resolved where possible through logical inference or clarified using professional phrasing.
+    - Use clear clinical language and formatting suitable for further review or formatting tasks
+  agent: doctor_reviewer
+
+medical_reporting_task:
+  description: >
+    Convert raw patient medical reports into structured LaTeX documents with the following sections:
+    1. Patient Information
+    2. Medical History
+    3. Clinical Presentation
+    4. Additional Tests
+    5. Diagnosis and Treatment
+  expected_output: >
+    Complete, compilable LaTeX document with proper structure and formatting.
+  agent: medical_reporting_writer
+
